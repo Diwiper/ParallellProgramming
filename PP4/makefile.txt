@@ -1,0 +1,14 @@
+.PHONY: all clean rebuild run runr
+
+rebuild: clean lab4 
+
+runr: rebuild run
+
+lab4: main.c
+	gcc main.c -o lab4 -lm -lpthread
+
+run:
+	./lab4
+
+clean:
+	rm -rvf lab4 
