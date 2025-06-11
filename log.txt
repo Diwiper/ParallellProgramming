@@ -1,0 +1,454 @@
+arr[0]=1
+arr[1]=2
+arr[2]=3
+arr[3]=4
+arr[4]=5
+arr[5]=6
+arr[6]=7
+arr[7]=8
+arr[8]=9
+arr[9]=10
+Stack with elements from 0-th to 9-th has been created !!!
+index_main = 9;
+Producer thread1  created !!!
+Producer thread1: element 10 CREATED;
+Producer thread1: element 11 CREATED;
+Producer thread1: element 12 CREATED;
+Producer thread1: element 13 CREATED;
+Producer thread1: element 14 CREATED;
+Producer thread1: element 15 CREATED;
+Producer thread1: element 16 CREATED;
+Producer thread1: element 17 CREATED;
+Producer thread1: element 18 CREATED;
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= 1 
+Consumer thread2  created !!!
+
+Thread2 wait sig21
+Thread3  created !!!
+
+Thread3 wait sig21
+Consumer thread4  created !!!
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= 0 
+
+Semaphore is open!
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -1 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -2 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread6  created !!!
+Thread 6 using atomic variables: 1, 2, 3, 4, 5, 6, 7, 8!
+
+Thread6 wait sig22
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -3 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread5  created !!!
+Thread5 modificating atomic variables!
+Thread5 modified atomic variables!
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -4 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+
+Signal sig21 is sent!
+Thread5 doing some cool staff instead of some usefull
+
+Wait scr21
+Semaphore scr21 sunhr
+Thread5 modificating atomic variables!
+Thread5 modified atomic variables!
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -5 
+
+Semaphore is open!
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -6 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -7 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -8 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -9 
+
+Signal sig21 is sent!
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Thread5 doing some cool staff instead of some usefull
+
+Wait scr21
+Semaphore scr21 sunhr
+Thread5 modificating atomic variables!
+Thread5 modified atomic variables!
+
+Signal sig21 is sent!
+Thread5 doing some cool staff instead of some usefull
+
+Wait scr21
+
+Signal sig21 is delivered in thread3!
+Thread 3 using atomic variables: -2, 2, -4, -8, 6, 6, 7, 3!
+
+Signal sig22 is sent!
+Thread 3 using atomic variables: -2, 2, -4, -8, 6, 6, 7, 3!
+
+Thread3 wait sig21
+
+Signal sig21 is delivered in thread2!
+Thread2 doing some cool staff instead of some usefull
+Thread 2 using atomic variables: -2, 2, -4, -8, 6, 6, 7, 3!
+Thread2 modificating atomic variables!
+Thread2 modified atomic variables!
+
+Signal sig22 is sent!
+
+Thread2 wait sig21
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -10 
+
+Semaphore is open!
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -11 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -12 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -13 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -14 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -15 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -16 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -17 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -18 
+Semaphore scr21 sunhr
+
+Semaphore is open!
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Thread5 modificating atomic variables!
+Thread5 modified atomic variables!
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -19 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+
+Signal sig22 is delivered in thread6!
+Thread 6 using atomic variables: -4, 2, -4, -16, 6, 6, 7, 3!
+Thread 6 using atomic variables: -4, 2, -4, -16, 6, 6, 7, 3!
+
+Thread6 wait sig22
+
+Signal sig21 is sent!
+Thread5 doing some cool staff instead of some usefull
+
+Wait scr21
+Semaphore scr21 sunhr
+Thread5 modificating atomic variables!
+Thread5 modified atomic variables!
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -20 
+
+Semaphore is open!
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -21 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+
+Signal sig21 is sent!
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -22 
+
+Signal sig21 is delivered in thread2!
+Consumer thread2: element 19 TAKEN;
+arr[19]=20
+
+Thread 2 using atomic variables: -5, 2, -1, -20, 6, 6, 7, 3!
+Thread2 modificating atomic variables!
+Thread2 modified atomic variables!
+
+Signal sig22 is sent!
+
+Thread2 wait sig21
+
+Signal sig21 is delivered in thread3!
+Thread 3 using atomic variables: -6, 2, -4, -24, 6, 6, 7, 3!
+
+Signal sig22 is sent!
+Thread 3 using atomic variables: -6, 2, -4, -24, 6, 6, 7, 3!
+
+Thread3 wait sig21
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -23 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Consumer thread4: element 18 TAKEN;
+arr[18]=19
+
+Consumer thread4: element 17 TAKEN;
+arr[17]=18
+
+Consumer thread4: element 16 TAKEN;
+arr[16]=17
+
+Consumer thread4: element 15 TAKEN;
+arr[15]=16
+
+Consumer thread4: element 14 TAKEN;
+arr[14]=15
+
+Consumer thread4: element 13 TAKEN;
+arr[13]=14
+
+Consumer thread4: element 12 TAKEN;
+arr[12]=13
+
+Consumer thread4: element 11 TAKEN;
+arr[11]=12
+
+Consumer thread4: element 10 TAKEN;
+arr[10]=11
+
+Consumer thread4: element 9 TAKEN;
+arr[9]=10
+
+Consumer thread4: element 8 TAKEN;
+arr[8]=9
+
+Consumer thread4: element 7 TAKEN;
+arr[7]=8
+
+Consumer thread4: element 6 TAKEN;
+arr[6]=7
+
+Consumer thread4: element 5 TAKEN;
+arr[5]=6
+
+Consumer thread4: element 4 TAKEN;
+arr[4]=5
+
+Consumer thread4: element 3 TAKEN;
+arr[3]=4
+
+Consumer thread4: element 2 TAKEN;
+arr[2]=3
+
+Consumer thread4: element 1 TAKEN;
+arr[1]=2
+
+Consumer thread4: element 0 TAKEN;
+arr[0]=1
+
+The buffer is empty! buffer_clear_loop= 1 
+Producer thread5: element 0 CREATED;
+
+Wait scr21
+Semaphore scr21 sunhr
+Thread5 modificating atomic variables!
+Thread5 modified atomic variables!
+
+Signal sig22 is delivered in thread6!
+Thread 6 using atomic variables: -7, 2, -1, -28, 6, 6, 7, 3!
+
+Semaphore is open!:
+Thread 6 using atomic variables: -7, 2, -1, -28, 6, 6, 7, 3!
+
+Thread6 wait sig22
+
+Signal sig21 is sent!
+Producer thread5: element 1 CREATED;
+
+Wait scr21
+Semaphore scr21 sunhr
+Thread5 modificating atomic variables!
+Thread5 modified atomic variables!
+Producer thread1: element 2 CREATED;
+Producer thread1: element 3 CREATED;
+Producer thread1: element 4 CREATED;
+Producer thread1: element 5 CREATED;
+Producer thread1: element 6 CREATED;
+Producer thread1: element 7 CREATED;
+Producer thread1: element 8 CREATED;
+Producer thread1: element 9 CREATED;
+Producer thread1: element 10 CREATED;
+Producer thread1: element 11 CREATED;
+Producer thread1: element 12 CREATED;
+Producer thread1: element 13 CREATED;
+Producer thread1: element 14 CREATED;
+Producer thread1: element 15 CREATED;
+Producer thread1: element 16 CREATED;
+Producer thread1: element 17 CREATED;
+Producer thread1: element 18 CREATED;
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -24 
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -25 
+
+Signal sig21 is sent!
+
+Semaphore is open!
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Producer thread5: element 19 CREATED;
+The buffer is full! buffer_full_loops= -26 
+
+Wait scr21
+Semaphore scr21 sunhr
+Thread5 modificating atomic variables!
+Thread5 modified atomic variables!
+
+Signal sig21 is sent!
+
+Signal sig21 is delivered in thread3!
+Thread 3 using atomic variables: -9, 2, -1, -36, 6, 6, 7, 3!
+
+Signal sig22 is sent!
+Thread 3 using atomic variables: -9, 2, -1, -36, 6, 6, 7, 3!
+
+Thread3 wait sig21
+
+Signal sig21 is delivered in thread2!
+Consumer thread2: element 19 TAKEN;
+arr[19]=20
+
+Thread 2 using atomic variables: -9, 2, -1, -36, 6, 6, 7, 3!
+Thread2 modificating atomic variables!
+Thread2 modified atomic variables!
+
+Signal sig22 is sent!
+
+Thread2 wait sig21
+Producer thread1: element 19 CREATED;
+The buffer is full! buffer_full_loops= -27 
+
+Semaphore is open!
+Consumer thread4: element 19 TAKEN;
+arr[19]=20
+
+Consumer thread4: element 18 TAKEN;
+arr[18]=19
+
+Consumer thread4: element 17 TAKEN;
+arr[17]=18
+
+Consumer thread4: element 16 TAKEN;
+arr[16]=17
+
+Consumer thread4: element 15 TAKEN;
+arr[15]=16
+
+Consumer thread4: element 14 TAKEN;
+arr[14]=15
+
+Consumer thread4: element 13 TAKEN;
+arr[13]=14
+
+Consumer thread4: element 12 TAKEN;
+arr[12]=13
+
+Consumer thread4: element 11 TAKEN;
+arr[11]=12
+
+Consumer thread4: element 10 TAKEN;
+arr[10]=11
+
+Consumer thread4: element 9 TAKEN;
+arr[9]=10
+
+Consumer thread4: element 8 TAKEN;
+arr[8]=9
+
+Consumer thread4: element 7 TAKEN;
+arr[7]=8
+
+Consumer thread4: element 6 TAKEN;
+arr[6]=7
+
+Consumer thread4: element 5 TAKEN;
+arr[5]=6
+
+Consumer thread4: element 4 TAKEN;
+arr[4]=5
+
+Consumer thread4: element 3 TAKEN;
+arr[3]=4
+
+Consumer thread4: element 2 TAKEN;
+arr[2]=3
+
+Consumer thread4: element 1 TAKEN;
+arr[1]=2
+
+Consumer thread4: element 0 TAKEN;
+arr[0]=1
+
+The buffer is empty! buffer_clear_loop= 0 
+Concumer thread4  stopped !!!
+All threads stopped!!!
+END!!!
